@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files
+data/
+*.csv
+*.json
+outputs/*.csv
+outputs/*.json
+
+# Keep specific important output files if needed
+!outputs/DATA_DICTIONARY.md
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+backup/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
