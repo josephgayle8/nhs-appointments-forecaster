@@ -30,6 +30,9 @@ data/
 # Backup files
 backup/
 
+# Utility scripts (not needed for Streamlit)
+forecasting.py
+
 # IDE
 .vscode/
 .idea/
