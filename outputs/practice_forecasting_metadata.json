@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "total_practices": 1046,
+    "model": "Holt-Winters Exponential Smoothing",
+    "training_period": "40 months (Oct 2022 - Jan 2026)",
+    "validation_period": "6 months (Aug 2025 - Jan 2026)",
+    "forecast_period": "12 months (Feb 2026 - Jan 2027)",
+    "forecast_start": "2026-02-01",
+    "forecast_end": "2027-01-01",
+    "data_filtered": "Top 95% performers (MAPE \u2264 26.10%)"
+  },
+  "model_performance": {
+    "median_mape": 10.495789852657712,
+    "mean_mape": 12.79795308629686,
+    "median_rmse": 386.3329794027438
+  },
+  "fte_summary": {
+    "total_fte_avg": 6.232164814880501,
+    "avg_fte_per_practice": 6.232164814880501,
+    "gp_capacity": 525,
+    "staff_capacity": 630
+  }
+}

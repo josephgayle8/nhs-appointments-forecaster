@@ -1,0 +1,18 @@
+{
+  "export_timestamp": "2026-03-15 15:13:36",
+  "forecast_period": "Feb 2026 - Jan 2027",
+  "forecast_months": 12,
+  "total_sub_icbs": 106,
+  "total_icbs": 42,
+  "total_regions": 7,
+  "model": "Holt-Winters (Exponential Smoothing)",
+  "seasonal_period": 12,
+  "gp_capacity_per_month": 525,
+  "staff_capacity_per_month": 630,
+  "gp_utilization": 1.0,
+  "staff_utilization": 1.0,
+  "total_forecast_appointments": 270532326,
+  "avg_monthly_gp_fte": 19868.057200134343,
+  "avg_monthly_staff_fte": 19227.98498088581,
+  "avg_monthly_total_fte": 39096.04218102015
+}

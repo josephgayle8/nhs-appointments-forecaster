@@ -1,0 +1,21 @@
+Metric,Value
+Forecast Period,Feb 2026 - Jan 2027 (12 months)
+Geographic Coverage,106 Sub-ICBs across England
+Total Forecasted Appointments,"270,532,327"
+Average Monthly Appointments,"22,544,361"
+Peak Month Appointments,"27,238,852 (2026-10)"
+Trough Month Appointments,"20,405,854 (2026-08)"
+,
+Average Monthly GP FTE,"19,868.1"
+Average Monthly Practice Staff FTE,"19,228.0"
+Average Monthly Total FTE,"39,096.0"
+Peak Month Total FTE,"47,237.1 (2026-10)"
+Trough Month Total FTE,"35,387.5 (2026-08)"
+Seasonal FTE Swing,"11,849.7 FTE (30.3%)"
+,
+Number of Sub-ICBs,106
+Number of ICBs,42
+Number of Regions,7
+Priority Locations (CRITICAL),1
+Priority Locations (HIGH),30
+Forecasting Model,Holt-Winters (Exponential Smoothing)

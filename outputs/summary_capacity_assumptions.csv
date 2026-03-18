@@ -1,0 +1,22 @@
+Parameter,Value
+GP Appointments per Day,25
+GP Target Utilization,100%
+GP Effective Capacity per Day,25
+GP Working Days per Month,21
+GP Monthly Capacity per FTE,525 appointments
+,
+Practice Staff Appointments per Day,30
+Practice Staff Target Utilization,100%
+Practice Staff Effective Capacity per Day,30
+Practice Staff Working Days per Month,21
+Practice Staff Monthly Capacity per FTE,630 appointments
+,
+Historical GP Proportion,46.3%
+Historical Practice Staff Proportion,53.7%
+,
+Training Period,Aug 2023 - Jul 2025 (24 months)
+Validation Period,Aug 2025 - Jan 2026 (6 months)
+Forecast Period,Feb 2026 - Jan 2027 (12 months)
+Seasonal Period (m),12 months
+Additive Seasonality Sub-ICBs,8
+Multiplicative Seasonality Sub-ICBs,57

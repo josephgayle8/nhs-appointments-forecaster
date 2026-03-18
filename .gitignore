@@ -17,11 +17,10 @@ env/
 data/
 *.csv
 *.json
-outputs/*.csv
-outputs/*.json
 
-# Keep specific important output files if needed
-!outputs/DATA_DICTIONARY.md
+# Exception: Allow all files in outputs/ directory (needed for Streamlit)
+!outputs/
+!outputs/**
 
 # macOS
 .DS_Store

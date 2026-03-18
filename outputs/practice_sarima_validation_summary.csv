@@ -1,0 +1,2 @@
+Total_Practices,Successful,Failed,Success_Rate_Pct,Median_MAPE,Mean_MAPE,Median_RMSE,Excellent_Count,Good_Count,Acceptable_Count,Poor_Count,Total_Runtime_Minutes,Avg_Runtime_Seconds
+1101,1101,0,100.0,10.495789852657712,12.79795308629686,386.3329794027438,505,334,140,122,17.164036333560944,0.9353647701963309
