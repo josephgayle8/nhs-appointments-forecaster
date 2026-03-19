@@ -198,13 +198,13 @@ try:
         col1, col2, col3, col4 = st.columns(4)
         
         with col1:
-            st.metric("Highest Growth", 
+            st.metric("Highest Appointment Increase", 
                      f"{top30_growth.iloc[0]['GP_NAME'][:30]}...",
                      f"+{top30_growth.iloc[0]['Forecast_Change_Pct']:.1f}%")
         
         with col2:
             practices_growing = (df_growth['Forecast_Change_Pct'] > 0).sum()
-            st.metric("Practices Expected to Grow", 
+            st.metric("Practices Expected More Appointments", 
                      f"{practices_growing} of {len(df_growth)}",
                      f"{practices_growing/len(df_growth)*100:.1f}%")
         

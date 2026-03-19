@@ -28,8 +28,7 @@ st.markdown("""
 ### Welcome to the NHS GP Appointments Forecasting Platform
 
 This dashboard provides **multi-level forecasting** for GP appointments across England:
-- **Sub-ICB Level**: 106 locations using Holt-Winters models
-- **Practice Level**: 1,101 London GP practices Holt-Winters forecasting model
+- **Sub-ICB Level**: 106 locations, **Practice Level**: 1,101 London GP practices, using Holt-Winters models
 
 Use the sidebar to navigate between different views. ↖️
 """)
@@ -63,7 +62,7 @@ with col1:
     if sub_icb_meta:
         st.metric("Locations Forecasted", "106 Sub-ICBs")
         st.metric("Model Type", "Holt-Winters")
-        st.info("**Forecast Period:** Feb 2026 - Jan 2027 (12 months)")
+        # st.info("**Forecast Period:** Feb 2026 - Jan 2027 (12 months)")
     else:
         st.info("Sub-ICB forecasting complete")
 
@@ -71,7 +70,7 @@ with col2:
     st.markdown("#### 🏥 Practice Level")
     if practice_meta:
         st.metric("London Practices", f"{practice_meta['metadata']['total_practices']:,}")
-        st.metric("Model Type", "Holt-Winters")
+        # st.metric("Model Type", "Holt-Winters")
         st.metric("Median MAPE", f"{practice_meta['model_performance']['median_mape']:.1f}%")
     else:
         st.info("Practice forecasting complete")
@@ -80,9 +79,9 @@ with col3:
     st.markdown("#### 👥 Resource Planning")
     if practice_meta:
         total_fte = practice_meta['fte_summary']['total_fte_avg']
-        st.metric("Total London FTE Needed", f"{total_fte:,.0f}")
+        # st.metric("Total London FTE Needed", f"{total_fte:,.0f}")
         st.metric("Avg FTE per Practice", f"{practice_meta['fte_summary']['avg_fte_per_practice']:.1f}")
-        st.info("**Capacity:** GP 525/mo, Staff 630/mo")
+        # st.info("**Capacity:** GP 525/mo, Staff 630/mo")
     else:
         st.info("FTE calculations available")
 
@@ -134,9 +133,8 @@ st.markdown("""
 - GP: 25 appointments/day @ 100% utilization = 525/month
 - Practice Staff: 30 appointments/day @ 100% utilization = 630/month
 
-**Assumptions=:**
-- ICB and Practice-level models validated with 6-month hold-out period
-- Holt-Winters captures seasonal patterns with trend and seasonality components
+**Assumptions:**
+- Holt-Winters captures seasonal pattern (e.g. Flu) with trend and seasonality components
 - Top 95% of practices retained based on MAPE performance 
 - Unknown appointments (e.g. attended or DNA unspecified) were removed from this analysis (~30%)
 - Unknown appointements with a specifed outcome (attended/DNA) were retained in this dataset
