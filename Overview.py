@@ -121,7 +121,7 @@ st.markdown("""
 
 **Data Sources:**
 - NHS GP Appointment - Historical data: October 2022 - January 2026 (40 months)
-- https://digital.nhs.uk/services/gp-appointment-data
+- https://digital.nhs.uk/data-and-information/publications/statistical/appointments-in-general-practice
 - Training set: October 2022 - July 2025 (34 months)
 - Test set: August 2025 - January 2026 (6 months)
 - Forecast period: February 2026 - January 2027 (12 months)
